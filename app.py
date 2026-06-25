@@ -1,18 +1,19 @@
 from pathlib import Path
 from urllib.parse import quote
+from textwrap import dedent
 import base64
+
 import numpy as np
 import pandas as pd
 import requests
 import streamlit as st
-from textwrap import dedent
-import json
 
 
-PROCESSED_DATA_DIR = Path("/Users/zuzakutowska/Desktop/art_recomender/data/processed")
+BASE_DIR = Path(__file__).resolve().parent
+PROCESSED_DATA_DIR = BASE_DIR / "data" / "processed"
 
 app_df = pd.read_csv(PROCESSED_DATA_DIR / "app_artworks_metadata.csv")
-object_ids = np.load(PROCESSED_DATA_DIR / "object_ids.npy")
+object_ids = np.load( PROCESSED_DATA_DIR / "object_ids.npy")
 visual_similarity = np.load(PROCESSED_DATA_DIR / "visual_similarity.npy")
 semantic_similarity = np.load(PROCESSED_DATA_DIR / "semantic_similarity.npy")
 
