@@ -380,6 +380,7 @@ def show_home_page():
                 Start by picking a collection below. Once you select an individual
                 artwork, you can explore more details about it and choose how
                 similar artworks should be recommended.
+                You can also explore our special ⭐ collection in the top-right corner, dedicated to highlighting works by women artists.
             </p>
         </div>
         """
@@ -1041,9 +1042,8 @@ def show_women_page():
             color: #7a3d52;
             line-height: 1.5;
         ">
-            Artworks by women represent only 0.6% of this database.
-            This collection highlights the women whose work is present
-            and makes their artworks easier to discover.
+            Only 0.6% of the artworks in this database are by women artists. 
+            This collection showcases their work and helps bring greater visibility to these artists.
         </div>
         """,
         unsafe_allow_html=True
