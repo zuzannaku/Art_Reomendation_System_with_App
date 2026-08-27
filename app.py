@@ -383,7 +383,7 @@ def show_home_page():
             </p>
 
             <p style="margin-bottom: 0;">
-                You can also explore our special ⭐ collection in the top-right corner, dedicated to highlighting works by women artists.
+                You can also explore our special collection in the top-right corner, dedicated to highlighting works by women artists, by clicking on the pink star.
             </p>
         </div>
         """
