@@ -380,6 +380,7 @@ def show_home_page():
                 Start by picking a collection below. Once you select an individual
                 artwork, you can explore more details about it and choose how
                 similar artworks should be recommended.
+                
                 You can also explore our special ⭐ collection in the top-right corner, dedicated to highlighting works by women artists.
             </p>
         </div>
